@@ -5,11 +5,11 @@ const io = require('socket.io')(http)
 const port = process.env.PORT || 3000
 const Twit = require('twit')
 const T = new Twit({
-    consumer_key: '7Hc7CE442iaBaf1hWjxNcmrgL',
-    consumer_secret: 'fVdigUXcEWdJyZXWityHlqj0BYSr8Eb6PuONtQk0D3ScpMoOMt',
-    access_token: '1251697614741004288-41JdZIFDFcKOcfdhh7u11C0YtKntC8',
-    access_token_secret: 'MR3TjHDJnTbD7CydhyzFsC5bfaBNchzqG9xb0HwL7ShHv',
-    timeout_ms: 60 * 1000
+    consumer_key: 'nUgo2JE3gr5lmvYpbyrX2KMub',
+    consumer_secret: 'tacfisblyuMBEjlW271KQ1ZZr1w0h3ShSTn3Gt9REWCq3EnP8z',
+    access_token: '1251697614741004288-SDe4r2kQJQBHedSNtNxV4cqbLhYbTq',
+    access_token_secret: 'tAzQks7aIc83P8vlPYDcCDSOojJ3pjhzgMNFCBMrMVc0W',
+    timeout_ms: 60*1000
 })
 
 const streams = {}
